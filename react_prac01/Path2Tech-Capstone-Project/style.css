@@ -1,3 +1,17 @@
+nav {
+    height: 40px;
+    background: rgb(241, 230, 214);
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
 * {
     justify-content: center;
     box-sizing: border-box;

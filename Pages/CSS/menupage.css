@@ -27,7 +27,7 @@ body {
 
 .top-third {
     background-color:  rgb(255, 213, 0)  0%;
-    padding: 20px;
+    padding: 30px;
 }
 
 header {
@@ -42,8 +42,7 @@ header {
 }
 .contact-info {
     margin-top: 10px;
-    font-size: 16px; /* Adjust the font size as needed */
-    color: #333;
+    font-size: 18px; 
     text-align: center;
     font-weight: bold;
 }

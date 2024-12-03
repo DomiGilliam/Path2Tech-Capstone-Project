@@ -1,0 +1,101 @@
+.profile-page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: none;
+  background: linear-gradient(to bottom, yellow, red);  
+  overflow-x: hidden; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw; 
+}
+
+.profile-page nav {
+  display: flex;
+  justify-content: right;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.profile-page nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-page nav li {
+  margin: 0 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-page nav li:hover {
+  text-decoration: underline;
+}
+
+.profile-page header {
+  background-color: #ffcc00;
+  padding: 20px;
+  text-align: center;
+  color: black; 
+}
+
+.profile-page main {
+  padding: 20px;
+  flex: 1; 
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info label {
+  margin-bottom: 10px;
+}
+
+.user-info input {
+  display: block;
+  margin-top: 5px;
+  padding: 10px;
+  width: 50%;
+}
+
+.ratings ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ratings li {
+  margin: 10px 0;
+  color: black; /* Set rating text color to black */
+}
+
+.stars {
+  color: gold; 
+}
+
+footer {
+  background-color: #1f1e1e;
+  color: rgb(212, 157, 6);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a, .social-media a {
+  text-decoration: none;
+  color: rgb(212, 157, 6);
+  margin: 0 5px;
+}
+
+.footer-links a:hover, .social-media a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  font-size: 1.5em;
+  color: rgb(212, 157, 6);
+}
